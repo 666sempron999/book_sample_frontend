@@ -1,0 +1,14 @@
+public/
+├── app.js
+├── appRoutes.js
+└── components
+    └── library
+        ├── controllers
+        │   └── library.control.js
+        ├── services
+        │   ├── authors.service.js
+        │   └── books.service.js
+        └── templates
+            └── library.template
+
+5 directories, 6 files

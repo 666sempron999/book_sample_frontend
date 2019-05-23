@@ -1,0 +1,8 @@
+preparation
+1) npm install
+2) npm install -g bower
+3) bower install --config.interactive=false --allow-root
+
+run
+1) Run backend server
+2) node server.js 

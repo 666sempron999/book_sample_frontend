@@ -1,0 +1,25 @@
+<div ng-controller="LibraryController">
+    Authors
+    <br/>
+
+    <div ng-repeat="author in authors">
+        <div>
+            First Name: {{ author.first_name }} <br/>
+            Last Name: {{ author.last_name }} <br/>
+            <hr/>
+        </div>
+    </div>
+    <br/>
+
+    Books
+    <div ng-repeat="book in books">
+        <div>
+            Name: {{ book.author.first_name + " " + book.author.last_name}}<br/>
+            Title: {{ book.title }} <br/>
+            Description: {{ book.description }} <br/>
+            Yesr: {{ book.year_of_creating }} <br/>
+            <hr/>
+        </div>
+    </div>
+    <br/>
+</div>
